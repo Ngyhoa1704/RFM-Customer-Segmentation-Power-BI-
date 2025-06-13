@@ -183,4 +183,5 @@ The RFM analysis reveals strong opportunities to:
 - Leverage demographic and geographic patterns to guide personalized marketing.
 
 This report supports the use of RFM as a practical and effective tool for customer segmentation and strategic decision-making in customer relationship management.
-For more details about the DAX code, please view the PBI.file 
+For more details about the DAX code, please view the Power BI File
+
