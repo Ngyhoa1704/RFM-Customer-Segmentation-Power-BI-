@@ -1,12 +1,12 @@
-# 📊 Customer Segmentation Using RFM Analysis – Power BI Dashboard
+# Customer Segmentation Using RFM Analysis – Power BI Dashboard
 
-## 📌 Overview
+## Overview
 
 This project presents a **Customer Segmentation Dashboard** created in **Power BI** using **RFM Analysis (Recency, Frequency, Monetary)** methodology. The dashboard enables businesses to analyze customer purchasing behavior, segment their customer base, and apply tailored marketing strategies to improve engagement, retention, and revenue.
 
 ---
 
-## 🧠 What is RFM Analysis?
+## What is RFM Analysis?
 
 **RFM Analysis** segments customers based on their transaction history:
 
@@ -18,7 +18,7 @@ These three metrics are scored and combined into a unique **RFM Score** (e.g., 5
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Understand customer demographics and sales distribution.
 - Segment customers using RFM methodology.
@@ -27,7 +27,7 @@ These three metrics are scored and combined into a unique **RFM Score** (e.g., 5
 
 ---
 
-## 📂 Dataset Details
+## Dataset Details
 
 Data is sourced from a fictional sales dataset resembling **AdventureWorks**. The key tables used:
 
@@ -38,13 +38,16 @@ Data is sourced from a fictional sales dataset resembling **AdventureWorks**. Th
 
 ---
 
-## 🧩 Data Model
+## Data Model
 
 The data model includes well-defined relationships between dimensions and fact tables. Here's a summary:
 
 - **1-to-many relationships** from dimension tables (e.g., `DimCustomer`, `DimDate`) to `FactInternetSales`.
 - **Custom RFM scoring logic** calculated using DAX.
 - **Segment mapping** handled via lookup tables (`Segment Table`, `Segment Descriptions`).
+  ![image](https://github.com/user-attachments/assets/ccbc1b7e-ba5b-43c6-a671-0ab5d4d88786)
+
+
 
 
 # RFM Dashboard – Report Analysis & Recommendations
@@ -53,7 +56,9 @@ This report provides a structured analysis of each page in the RFM-based Power B
 
 ---
 
+
 ## Page 1: Customer Demographics
+
 
 ### Key Metrics
 - **Total Sales**: $29.36 million  
@@ -61,16 +66,20 @@ This report provides a structured analysis of each page in the RFM-based Power B
 - **Gender Distribution**: Male (50.46%), Female (49.54%)  
 - **Marital Status**: Married (51.73%), Single (48.27%)  
 
+
 ### Sales by Age Band
 - 55–64: $11.4M  
 - 65–74: $7.7M  
 - 45–54: $6.4M  
 
+
 ### Geographic Breakdown
 Strongest sales are concentrated in North America, Europe, and Australia.
 
+
 ### Analysis
 The data suggests that the majority of revenue is driven by older customer groups, particularly those between 55 and 74 years old. Gender and marital status distributions are well-balanced, indicating broad customer appeal without apparent bias. Regionally, sales are largely generated from mature markets in the Western hemisphere.
+
 
 ### Recommendations
 - Focus marketing and retention strategies on the 55–74 age group, as they represent the most valuable customer demographic.
@@ -78,6 +87,7 @@ The data suggests that the majority of revenue is driven by older customer group
 - Ensure the customer experience (especially digital interfaces) is optimized for older users with accessible design and clear communication.
 
 ---
+
 
 ## Page 2: Customer Segmentation (RFM Analysis)
 
@@ -94,12 +104,14 @@ The data suggests that the majority of revenue is driven by older customer group
 | About to Sleep  | 1,100     | $0.3M       |
 | Need Attention  | 300       | $0.0M       |
 
+
 ### Analysis
 Over half of the total revenue comes from Champions and At Risk customers combined. While Champions are highly active and loyal, At Risk customers were once valuable but have not made recent purchases.
 
 New Customers make up the largest segment by count but contribute minimally to revenue. This suggests an issue with early-stage customer engagement or conversion.
 
 Promising customers show good potential and recent engagement but are not yet delivering high value.
+
 
 ### Recommendations
 - Prioritize re-engagement campaigns for At Risk customers using personalized offers or loyalty incentives.
@@ -111,6 +123,7 @@ Promising customers show good potential and recent engagement but are not yet de
 
 ## Page 3: Customer Details
 
+
 ### Example Insight – Top Customer
 - **Customer**: Hunter Lopez  
 - **Recency**: 6,194 (days since last purchase)  
@@ -118,10 +131,12 @@ Promising customers show good potential and recent engagement but are not yet de
 - **Monetary Value**: $2,564.92  
 - **Segment**: Promising  
 
+
 ### Analysis
 The top customers by sales are typically older, high-spending individuals who have only made a single purchase. This points to a missed opportunity to convert high-value, one-time buyers into repeat customers.
 
 Additionally, these top customers are geographically dispersed, mainly across the United States, United Kingdom, Germany, and France.
+
 
 ### Recommendations
 - Introduce cross-sell and upsell offers to increase frequency among high-Monetary, low-Frequency customers.
@@ -135,11 +150,13 @@ Additionally, these top customers are geographically dispersed, mainly across th
 ### Overview
 This page outlines behavioral descriptions and recommended actions for each RFM segment. It acts as a guide for aligning marketing strategy with customer behavior.
 
+
 ### Segment Application
 - **Champions**: Continue to reward loyalty and maintain engagement.  
 - **Loyal**: Provide recognition and consistent service.  
 - **At Risk**: Implement reactivation strategies and monitor behavior closely.  
 - **New and Promising**: Focus on education, onboarding, and early retention.  
+
 
 ### Recommendations
 - Automate marketing actions using CRM or email platforms to trigger campaigns when customers move between segments.
