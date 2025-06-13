@@ -4,7 +4,6 @@
 
 This project presents a **Customer Segmentation Dashboard** created in **Power BI** using **RFM Analysis (Recency, Frequency, Monetary)** methodology. The dashboard enables businesses to analyze customer purchasing behavior, segment their customer base, and apply tailored marketing strategies to improve engagement, retention, and revenue.
 
----
 
 ## What is RFM Analysis?
 
@@ -16,7 +15,7 @@ This project presents a **Customer Segmentation Dashboard** created in **Power B
 
 These three metrics are scored and combined into a unique **RFM Score** (e.g., 511, 344) which is then mapped to customer segments such as **Champions**, **Loyal**, **At Risk**, etc.
 
----
+
 
 ## Objectives
 
@@ -25,7 +24,7 @@ These three metrics are scored and combined into a unique **RFM Score** (e.g., 5
 - Identify high-value vs. low-engagement customers.
 - Recommend marketing actions based on customer segments.
 
----
+
 
 ## Dataset Details
 
@@ -36,7 +35,6 @@ Data is sourced from a fictional sales dataset resembling **AdventureWorks**. Th
 - `DimDate`, `DimGeography`, `DimProduct`: Supporting dimensional tables.
 - `RFM Table`: Custom table containing RFM scores and segments.
 
----
 
 ## Data Model
 
@@ -54,7 +52,7 @@ The data model includes well-defined relationships between dimensions and fact t
 
 This report provides a structured analysis of each page in the RFM-based Power BI dashboard. It highlights key metrics, interprets user behavior patterns, and offers actionable business recommendations.
 
----
+
 
 
 ## Page 1: Customer Demographics
@@ -87,7 +85,7 @@ The data suggests that the majority of revenue is driven by older customer group
 - Invest in campaigns targeted at North America and Europe to maximize regional performance.
 - Ensure the customer experience (especially digital interfaces) is optimized for older users with accessible design and clear communication.
 
----
+
 
 
 ## Page 2: Customer Segmentation (RFM Analysis)
@@ -122,7 +120,7 @@ Promising customers show good potential and recent engagement but are not yet de
 - Nurture Promising customers with promotional campaigns aimed at increasing repeat purchases and moving them toward Loyal or Champion segments.
 - Invest in retaining Champions through loyalty programs, exclusive access, and priority service.
 
----
+
 
 ## Page 3: Customer Details
 
@@ -148,7 +146,7 @@ Additionally, these top customers are geographically dispersed, mainly across th
 - Target high-value one-time buyers with follow-up emails or special incentives to encourage repeat purchases.
 - Develop region-specific campaigns for strong-performing countries to enhance localization and relevance.
 
----
+
 
 ## Page 4: RFM Description and Marketing Strategy
 
@@ -171,7 +169,7 @@ This page outlines behavioral descriptions and recommended actions for each RFM 
 - Monitor segment transitions over time to measure the effectiveness of customer engagement strategies.
 - Collaborate across teams (marketing, support, product) to implement aligned actions for each customer segment.
 
----
+
 
 ## Summary
 
