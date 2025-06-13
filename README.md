@@ -59,6 +59,7 @@ This report provides a structured analysis of each page in the RFM-based Power B
 
 ## Page 1: Customer Demographics
 
+![image](https://github.com/user-attachments/assets/50b3c3e3-cd3e-4716-ae49-2e612feb7cda)
 
 ### Key Metrics
 - **Total Sales**: $29.36 million  
@@ -90,6 +91,8 @@ The data suggests that the majority of revenue is driven by older customer group
 
 
 ## Page 2: Customer Segmentation (RFM Analysis)
+
+![image](https://github.com/user-attachments/assets/d79f9925-5136-4e1f-9259-1c2fa02c8ebc)
 
 ### Segment Summary
 
@@ -123,6 +126,8 @@ Promising customers show good potential and recent engagement but are not yet de
 
 ## Page 3: Customer Details
 
+![image](https://github.com/user-attachments/assets/a6ef9979-db55-4c20-97e5-fd14abc4d58a)
+
 
 ### Example Insight – Top Customer
 - **Customer**: Hunter Lopez  
@@ -146,6 +151,9 @@ Additionally, these top customers are geographically dispersed, mainly across th
 ---
 
 ## Page 4: RFM Description and Marketing Strategy
+
+![image](https://github.com/user-attachments/assets/5770f7ba-6e80-4e85-87d1-e76828a6fa15)
+
 
 ### Overview
 This page outlines behavioral descriptions and recommended actions for each RFM segment. It acts as a guide for aligning marketing strategy with customer behavior.
@@ -175,3 +183,4 @@ The RFM analysis reveals strong opportunities to:
 - Leverage demographic and geographic patterns to guide personalized marketing.
 
 This report supports the use of RFM as a practical and effective tool for customer segmentation and strategic decision-making in customer relationship management.
+For more details about the DAX code, please view the PBI.file 
