@@ -122,7 +122,7 @@ Promising customers show good potential and recent engagement but are not yet de
 
 
 
-## Page 3: Customer Details
+## Page 3: Customer Details (Drill Through Page)
 
 ![image](https://github.com/user-attachments/assets/a6ef9979-db55-4c20-97e5-fd14abc4d58a)
 
